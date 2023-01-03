@@ -1,0 +1,48 @@
+{
+        "label": "Waterstaatskaarten",
+        "@id": "https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/Waterstaatskaarten/Waterstaatskaarten_collection.json",
+        "@type": "sc:Collection",
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "manifests": [
+                {
+                        "@id": "https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/Waterstaatskaarten/editie_1.json",
+                        "label": "Editie 1",
+                        "@type": "sc:Manifest"
+                },
+                {
+                        "@id": "https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/Waterstaatskaarten/editie_1BIS.json",
+                        "label": "Editie 1BIS",
+                        "@type": "sc:Manifest"
+                },
+                {
+                        "@id": "https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/Waterstaatskaarten/editie_2.json",
+                        "label": "Editie 2",
+                        "@type": "sc:Manifest"
+                },
+                {
+                        "@id": "https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/Waterstaatskaarten/editie_2BIS.json",
+                        "label": "Editie 2BIS",
+                        "@type": "sc:Manifest"
+                },
+                {
+                        "@id": "https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/Waterstaatskaarten/editie_3.json",
+                        "label": "Editie 3",
+                        "@type": "sc:Manifest"
+                },
+                {
+                        "@id": "https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/Waterstaatskaarten/editie_3BIS.json",
+                        "label": "Editie 3BIS",
+                        "@type": "sc:Manifest"
+                },
+                {
+                        "@id": "https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/Waterstaatskaarten/editie_4.json",
+                        "label": "Editie 4",
+                        "@type": "sc:Manifest"
+                },
+                {
+                        "@id": "https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/Waterstaatskaarten/editie_5.json",
+                        "label": "Editie 5",
+                        "@type": "sc:Manifest"
+                }
+        ]
+}

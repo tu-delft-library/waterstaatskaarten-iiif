@@ -1,0 +1,1428 @@
+{
+        "@context": "http://iiif.io/api/presentation/2/context.json",
+        "@id": "https://dlc.services/iiif-resource/7/string1string2string3/waterstaatskaart/1/2",
+        "@type": "sc:Manifest",
+        "metadata": [
+                {
+                        "label": "Titel",
+                        "value": "Waterstaatskaart"
+                },
+                {
+                        "label": "Editie",
+                        "value": "1BIS"
+                },
+                {
+                        "label": "Jaren",
+                        "value": "1882-1924"
+                }
+        ],
+        "sequences": [
+                {
+                        "@id": "https://dlc.services/iiif-query/7/?sequence=n1&manifest=s1&canvas=n2&s1=waterstaatskaart&n1=",
+                        "@type": "sc:Sequence",
+                        "label": "Sequence 0",
+                        "canvases": [
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=181",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/df428b4d-257a-4505-bd3d-eb6fda9d3e78/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/df428b4d-257a-4505-bd3d-eb6fda9d3e78",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 815,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 815
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 318
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 159
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 80
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4376,
+                                        "width": 5496,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/df428b4d-257a-4505-bd3d-eb6fda9d3e78/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/df428b4d-257a-4505-bd3d-eb6fda9d3e78/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4376,
+                                                                "width": 5496,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/df428b4d-257a-4505-bd3d-eb6fda9d3e78",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4376,
+                                                                        "width": 5496,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=181"
+                                                }
+                                        ],
+                                        "label": "14 - MEDEMBLIK 1"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=182",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/5b485949-c853-41d7-a6c0-e208ff1ca0f2/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/5b485949-c853-41d7-a6c0-e208ff1ca0f2",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 809,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 809
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 316
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 158
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 79
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4360,
+                                        "width": 5520,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/5b485949-c853-41d7-a6c0-e208ff1ca0f2/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/5b485949-c853-41d7-a6c0-e208ff1ca0f2/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4360,
+                                                                "width": 5520,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/5b485949-c853-41d7-a6c0-e208ff1ca0f2",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4360,
+                                                                        "width": 5520,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=182"
+                                                }
+                                        ],
+                                        "label": "14 - MEDEMBLIK 2"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=183",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/033267b9-9840-4817-b6de-431bb852b7f1/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/033267b9-9840-4817-b6de-431bb852b7f1",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 819,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 819
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 320
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 160
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 80
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4368,
+                                        "width": 5460,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/033267b9-9840-4817-b6de-431bb852b7f1/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/033267b9-9840-4817-b6de-431bb852b7f1/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4368,
+                                                                "width": 5460,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/033267b9-9840-4817-b6de-431bb852b7f1",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4368,
+                                                                        "width": 5460,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=183"
+                                                }
+                                        ],
+                                        "label": "14 - MEDEMBLIK 3"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=184",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/d6818677-e528-44cd-84ff-362d30b171a5/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/d6818677-e528-44cd-84ff-362d30b171a5",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 802,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 802
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 313
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 157
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 78
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4360,
+                                        "width": 5568,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/d6818677-e528-44cd-84ff-362d30b171a5/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/d6818677-e528-44cd-84ff-362d30b171a5/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4360,
+                                                                "width": 5568,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/d6818677-e528-44cd-84ff-362d30b171a5",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4360,
+                                                                        "width": 5568,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=184"
+                                                }
+                                        ],
+                                        "label": "14 - MEDEMBLIK 4"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=185",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/945c6333-d86b-42c1-99a5-d1de75d623c9/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/945c6333-d86b-42c1-99a5-d1de75d623c9",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 823,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 823
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 321
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 161
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 80
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4404,
+                                        "width": 5480,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/945c6333-d86b-42c1-99a5-d1de75d623c9/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/945c6333-d86b-42c1-99a5-d1de75d623c9/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4404,
+                                                                "width": 5480,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/945c6333-d86b-42c1-99a5-d1de75d623c9",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4404,
+                                                                        "width": 5480,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=185"
+                                                }
+                                        ],
+                                        "label": "15 - STAVOREN 3"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=186",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/34109812-486b-4802-abc9-ffeffdd495a8/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/34109812-486b-4802-abc9-ffeffdd495a8",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 825,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 825
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 322
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 161
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 81
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4448,
+                                        "width": 5520,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/34109812-486b-4802-abc9-ffeffdd495a8/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/34109812-486b-4802-abc9-ffeffdd495a8/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4448,
+                                                                "width": 5520,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/34109812-486b-4802-abc9-ffeffdd495a8",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4448,
+                                                                        "width": 5520,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=186"
+                                                }
+                                        ],
+                                        "label": "19 - ALKMAAR 1"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=187",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/fe50ea10-09c9-4ce6-851c-d724e874ccf1/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/fe50ea10-09c9-4ce6-851c-d724e874ccf1",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 806,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 806
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 315
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 157
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 79
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4336,
+                                        "width": 5508,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/fe50ea10-09c9-4ce6-851c-d724e874ccf1/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/fe50ea10-09c9-4ce6-851c-d724e874ccf1/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4336,
+                                                                "width": 5508,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/fe50ea10-09c9-4ce6-851c-d724e874ccf1",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4336,
+                                                                        "width": 5508,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=187"
+                                                }
+                                        ],
+                                        "label": "19 - ALKMAAR 2"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=188",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/4e7e5ad0-67e0-4af7-a5d4-372c1c38ea04/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/4e7e5ad0-67e0-4af7-a5d4-372c1c38ea04",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 805,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 805
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 314
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 157
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 79
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4368,
+                                        "width": 5556,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/4e7e5ad0-67e0-4af7-a5d4-372c1c38ea04/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/4e7e5ad0-67e0-4af7-a5d4-372c1c38ea04/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4368,
+                                                                "width": 5556,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/4e7e5ad0-67e0-4af7-a5d4-372c1c38ea04",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4368,
+                                                                        "width": 5556,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=188"
+                                                }
+                                        ],
+                                        "label": "19 - ALKMAAR 3"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=189",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/1c7eb88a-db6e-473b-a6a8-f0eba263595e/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/1c7eb88a-db6e-473b-a6a8-f0eba263595e",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 833,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 833
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 325
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 163
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 81
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4432,
+                                        "width": 5448,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/1c7eb88a-db6e-473b-a6a8-f0eba263595e/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/1c7eb88a-db6e-473b-a6a8-f0eba263595e/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4432,
+                                                                "width": 5448,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/1c7eb88a-db6e-473b-a6a8-f0eba263595e",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4432,
+                                                                        "width": 5448,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=189"
+                                                }
+                                        ],
+                                        "label": "19 - ALKMAAR 4"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=190",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/1331c580-21eb-475c-9e6a-8e0daf3d5393/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/1331c580-21eb-475c-9e6a-8e0daf3d5393",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 812,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 812
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 317
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 159
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 79
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4360,
+                                        "width": 5496,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/1331c580-21eb-475c-9e6a-8e0daf3d5393/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/1331c580-21eb-475c-9e6a-8e0daf3d5393/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4360,
+                                                                "width": 5496,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/1331c580-21eb-475c-9e6a-8e0daf3d5393",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4360,
+                                                                        "width": 5496,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=190"
+                                                }
+                                        ],
+                                        "label": "20 - ENKHUIZEN 1"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=191",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/2e9c11bf-b96d-4729-b4a6-a5bdeef9d078/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/2e9c11bf-b96d-4729-b4a6-a5bdeef9d078",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 823,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 823
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 321
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 161
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 80
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4376,
+                                        "width": 5448,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/2e9c11bf-b96d-4729-b4a6-a5bdeef9d078/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/2e9c11bf-b96d-4729-b4a6-a5bdeef9d078/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4376,
+                                                                "width": 5448,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/2e9c11bf-b96d-4729-b4a6-a5bdeef9d078",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4376,
+                                                                        "width": 5448,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=191"
+                                                }
+                                        ],
+                                        "label": "28 - ALMELO 4"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=192",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/b7c2d10c-0662-493b-98d9-8802786fa21b/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/b7c2d10c-0662-493b-98d9-8802786fa21b",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 815,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 815
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 318
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 159
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 80
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4336,
+                                        "width": 5448,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/b7c2d10c-0662-493b-98d9-8802786fa21b/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/b7c2d10c-0662-493b-98d9-8802786fa21b/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4336,
+                                                                "width": 5448,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/b7c2d10c-0662-493b-98d9-8802786fa21b",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4336,
+                                                                        "width": 5448,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=192"
+                                                }
+                                        ],
+                                        "label": "30 - 'S GRAVENHAGE 2"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=193",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/be214773-f3ee-4804-a11c-3bf62a98488f/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/be214773-f3ee-4804-a11c-3bf62a98488f",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 813,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 813
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 318
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 159
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 79
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4384,
+                                        "width": 5520,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/be214773-f3ee-4804-a11c-3bf62a98488f/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/be214773-f3ee-4804-a11c-3bf62a98488f/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4384,
+                                                                "width": 5520,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/be214773-f3ee-4804-a11c-3bf62a98488f",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4384,
+                                                                        "width": 5520,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=193"
+                                                }
+                                        ],
+                                        "label": "31 - UTRECHT 1"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=194",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/c33eca89-83d3-4dc8-91db-3e726f9e7058/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/c33eca89-83d3-4dc8-91db-3e726f9e7058",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 809,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 809
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 316
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 158
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 79
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4264,
+                                        "width": 5400,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/c33eca89-83d3-4dc8-91db-3e726f9e7058/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/c33eca89-83d3-4dc8-91db-3e726f9e7058/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4264,
+                                                                "width": 5400,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/c33eca89-83d3-4dc8-91db-3e726f9e7058",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4264,
+                                                                        "width": 5400,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=194"
+                                                }
+                                        ],
+                                        "label": "31 - UTRECHT 2"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=195",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/df1baef8-9df1-4dd1-9888-51c7cf99eaff/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/df1baef8-9df1-4dd1-9888-51c7cf99eaff",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 813,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 813
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 318
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 159
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 79
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4251,
+                                        "width": 5352,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/df1baef8-9df1-4dd1-9888-51c7cf99eaff/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/df1baef8-9df1-4dd1-9888-51c7cf99eaff/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4251,
+                                                                "width": 5352,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/df1baef8-9df1-4dd1-9888-51c7cf99eaff",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4251,
+                                                                        "width": 5352,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=195"
+                                                }
+                                        ],
+                                        "label": "31 - UTRECHT 3"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=196",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/638a6f8a-94a9-4eac-a0eb-55bc68abf4b7/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/638a6f8a-94a9-4eac-a0eb-55bc68abf4b7",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 782,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 782
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 305
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 153
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 76
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4232,
+                                        "width": 5544,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/638a6f8a-94a9-4eac-a0eb-55bc68abf4b7/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/638a6f8a-94a9-4eac-a0eb-55bc68abf4b7/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4232,
+                                                                "width": 5544,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/638a6f8a-94a9-4eac-a0eb-55bc68abf4b7",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4232,
+                                                                        "width": 5544,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=196"
+                                                }
+                                        ],
+                                        "label": "31 - UTRECHT 4"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=197",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/bcd4adbb-f5fa-488b-a6de-96d9f1d07f17/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/bcd4adbb-f5fa-488b-a6de-96d9f1d07f17",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 797,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 797
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 311
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 156
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 78
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4304,
+                                        "width": 5532,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/bcd4adbb-f5fa-488b-a6de-96d9f1d07f17/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/bcd4adbb-f5fa-488b-a6de-96d9f1d07f17/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4304,
+                                                                "width": 5532,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/bcd4adbb-f5fa-488b-a6de-96d9f1d07f17",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4304,
+                                                                        "width": 5532,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=197"
+                                                }
+                                        ],
+                                        "label": "38 - GORINCHEM 2"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=198",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/80d60071-98aa-492d-96b7-a09ea6bca995/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/80d60071-98aa-492d-96b7-a09ea6bca995",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 800,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 800
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 312
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 156
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 78
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4248,
+                                        "width": 5440,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/80d60071-98aa-492d-96b7-a09ea6bca995/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/80d60071-98aa-492d-96b7-a09ea6bca995/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4248,
+                                                                "width": 5440,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/80d60071-98aa-492d-96b7-a09ea6bca995",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4248,
+                                                                        "width": 5440,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=198"
+                                                }
+                                        ],
+                                        "label": "38 - GORINCHEM 4"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=199",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/9bceb961-1ad5-43fb-844c-92d6b4147118/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/9bceb961-1ad5-43fb-844c-92d6b4147118",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 816,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 816
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 319
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 159
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 80
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4400,
+                                        "width": 5520,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/9bceb961-1ad5-43fb-844c-92d6b4147118/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/9bceb961-1ad5-43fb-844c-92d6b4147118/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4400,
+                                                                "width": 5520,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/9bceb961-1ad5-43fb-844c-92d6b4147118",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4400,
+                                                                        "width": 5520,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=199"
+                                                }
+                                        ],
+                                        "label": "39 - RHENEN 1"
+                                },
+                                {
+                                        "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=200",
+                                        "@type": "sc:Canvas",
+                                        "thumbnail": {
+                                                "@id": "https://dlc.services/thumbs/7/32/4fac758a-3cad-4e1a-a01e-c6c256413d90/full/full/0/default.jpg",
+                                                "@type": "dctypes:Image",
+                                                "service": {
+                                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                                        "@id": "https://apex.dlc.services/thumbs/7/32/4fac758a-3cad-4e1a-a01e-c6c256413d90",
+                                                        "profile": [
+                                                                "http://iiif.io/api/image/2/level0.json",
+                                                                {
+                                                                        "formats": [
+                                                                                "jpg"
+                                                                        ],
+                                                                        "qualities": [
+                                                                                "color"
+                                                                        ],
+                                                                        "supports": [
+                                                                                "sizeByWhListed"
+                                                                        ]
+                                                                }
+                                                        ],
+                                                        "width": 1024,
+                                                        "height": 813,
+                                                        "sizes": [
+                                                                {
+                                                                        "width": 1024,
+                                                                        "height": 813
+                                                                },
+                                                                {
+                                                                        "width": 400,
+                                                                        "height": 318
+                                                                },
+                                                                {
+                                                                        "width": 200,
+                                                                        "height": 159
+                                                                },
+                                                                {
+                                                                        "width": 100,
+                                                                        "height": 79
+                                                                }
+                                                        ]
+                                                }
+                                        },
+                                        "height": 4344,
+                                        "width": 5472,
+                                        "images": [
+                                                {
+                                                        "@id": "https://dlc.services/iiif-img/7/32/4fac758a-3cad-4e1a-a01e-c6c256413d90/anno",
+                                                        "@type": "oa:Annotation",
+                                                        "motivation": "sc:painting",
+                                                        "resource": {
+                                                                "@id": "https://dlc.services/iiif-img/7/32/4fac758a-3cad-4e1a-a01e-c6c256413d90/full/!2000,2000/0/default.jpg",
+                                                                "@type": "dctypes:Image",
+                                                                "height": 4344,
+                                                                "width": 5472,
+                                                                "service": {
+                                                                        "@id": "https://dlc.services/iiif-img/7/32/4fac758a-3cad-4e1a-a01e-c6c256413d90",
+                                                                        "protocol": "http://iiif.io/api/image",
+                                                                        "height": 4344,
+                                                                        "width": 5472,
+                                                                        "profile": "http://iiif.io/api/image/2/level1.json"
+                                                                }
+                                                        },
+                                                        "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=waterstaatskaart&n1=&n2=200"
+                                                }
+                                        ],
+                                        "label": "39 - RHENEN 3"
+                                }
+                        ]
+                }
+        ]
+}

@@ -7,11 +7,11 @@ from pathlib import Path
 # Base url for dlcs
 dlcs_base = "https://dlc.services/iiif-resource/7/string1string2string3/{}/{}/{}"
 
-manifest_url = "https://raw.githubusercontent.com/tu-delft-library/rivierkaarten-iiif/main/Output/Waterstaatskaarten/{}"
+manifest_url = "https://raw.githubusercontent.com/tu-delft-library/waterstaatskaarten-iiif/main/Output/Manifests/{}"
 
-df_photo_loc = pd.read_csv('Input/Waterstaatskaarten/waterstaatskaart.csv')
-df_photo_dlcs = pd.read_csv('Input/Waterstaatskaarten/waterstaatskaart-dlcs.csv')
-df_meta = pd.read_csv('Input/Waterstaatskaarten/meta_sheet.csv')
+df_photo_loc = pd.read_csv('Input/waterstaatskaart.csv')
+df_photo_dlcs = pd.read_csv('Input/waterstaatskaart-dlcs.csv')
+df_meta = pd.read_csv('Input/meta_sheet.csv')
 
 df_photo_dlcs['Reference3'].fillna(1, inplace=True)
 
@@ -86,8 +86,8 @@ for i, group in enumerate(df_photo_group.keys()):
     })
 
     json_out = json.dumps(json_manifest, indent=8)
-    Path("Output/Waterstaatskaarten").mkdir(parents=True, exist_ok=True)
-    with open("Output/Waterstaatskaarten/{}".format(filename), "w") as outfile:
+    Path("Output/Manifests").mkdir(parents=True, exist_ok=True)
+    with open("Output/Manifests/{}".format(filename), "w") as outfile:
         outfile.write(json_out)
 
 collection_name = "Waterstaatskaarten_collection.json"
@@ -100,8 +100,8 @@ json_collection = {"label": "Waterstaatskaarten",
                    "manifests": json_collect}
 
 json_collect_out = json.dumps(json_collection, indent=8)
-Path("Output/Waterstaatskaarten").mkdir(parents=True, exist_ok=True)
-with open("Output/Waterstaatskaarten/{}".format(collection_name), "w") as outfile:
+Path("Output/Manifests").mkdir(parents=True, exist_ok=True)
+with open("Output/Manifests/{}".format(collection_name), "w") as outfile:
     outfile.write(json_collect_out)
 
 # for i, photo in df_photo_dlcs.iterrows():
